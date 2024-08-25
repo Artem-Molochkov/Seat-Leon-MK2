@@ -1,0 +1,37 @@
+/*
+>=1200
+992-1199
+768-991
+576-768
+460-576
+414-460
+375-414
+320-375
+*/
+
+@media screen and (max-width: 1199px){
+
+    header .container .menu a {
+        margin: 60px;
+    }
+
+}
+@media screen and (max-width: 991px){
+
+    header .container .menu a {
+        margin: 30px;
+    }
+
+}
+@media screen and (max-width: 768px){
+    header form div {
+        width: 120px;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    header form div {
+        width: 120px;
+    }
+}
